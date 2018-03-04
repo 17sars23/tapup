@@ -9,11 +9,41 @@
 import UIKit
 
 class RankingViewController: UIViewController {
-
+    
+    //---------------------------------------
+    // Setting variable
+    //---------------------------------------
+    @IBOutlet var scoreLabel1: UILabel!
+    @IBOutlet var scoreLabel2: UILabel!
+    @IBOutlet var scoreLabel3: UILabel!
+    @IBOutlet var scoreLabel4: UILabel!
+    @IBOutlet var scoreLabel5: UILabel!
+    
+    let SaveData: UserDefaults = UserDefaults.standard
+    
+    @IBOutlet var lastscoreLabel: UILabel!
+    var result: Int!
+    
+    
+    //---------------------------------------
+    // Setting function
+    //---------------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        result = SaveData.integer(forKey: "last_score")
+        lastscoreLabel.text = String(result) + "pt"
+        
+        SaveData.register(defaults: ["rank": [0,0,0,0,0]])
+        
+        let RankArray = ReRanking()
+        //もしここで，遷移元を取得して，遷移元によって動作を変えるならどう書く？どうやって遷移元を取得する？
+        
+        //Ranking show
+        for i in 0...4{
+            let label = value(forKey: "scoreLabel\(i+1)") as! UILabel
+            label.text = String(RankArray[i]) + "pt"
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +51,31 @@ class RankingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //---------------------------------------
+    // Original function
+    //---------------------------------------
+    //---------Re Ranking ---------------------------------------
+    func ReRanking() -> Array<Int>{
+        var rArray = SaveData.array(forKey: "rank") as! [Int]
+        
+        rArray.append(SaveData.integer(forKey: "last_score"))
+        rArray.sort(by: {$0 > $1}) //sort
+        rArray.removeLast()
+        print(rArray)
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        SaveData.set(rArray, forKey: "rank")
+        SaveData.set(0, forKey: "last_score")
+        return rArray
     }
-    */
-
+    
+    @IBAction func rank_reset(){
+        let reset_array = [0,0,0,0,0]
+        SaveData.set(reset_array, forKey: "rank")
+        
+        for i in 0...4{
+            let label = value(forKey: "scoreLabel\(i+1)") as! UILabel
+            label.text = String(reset_array[i]) + "pt"
+        }
+    }
+    
 }

@@ -7,8 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961C11862043E0D70098315A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C11852043E0D70098315A /* TimerViewController.swift */; };
+		961C118A204401F40098315A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C1189204401F40098315A /* InputViewController.swift */; };
+		961C118E20468BB70098315A /* ju.png in Resources */ = {isa = PBXBuildFile; fileRef = 961C118D20468BB70098315A /* ju.png */; };
+		963CB26B2039424800AF176A /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CB26A2039424800AF176A /* RankingViewController.swift */; };
+		9650A5DD204A95380013FAA1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650A5DC204A95380013FAA1 /* Social.framework */; };
+		9650A5E6204A9A2C0013FAA1 /* bronze.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5DE204A9A280013FAA1 /* bronze.png */; };
+		9650A5E7204A9A2C0013FAA1 /* 112.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5DF204A9A280013FAA1 /* 112.jpg */; };
+		9650A5E8204A9A2C0013FAA1 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5E0204A9A290013FAA1 /* gold.png */; };
+		9650A5E9204A9A2C0013FAA1 /* silver.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5E1204A9A290013FAA1 /* silver.png */; };
+		9650A5EA204A9A2C0013FAA1 /* gan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5E2204A9A2A0013FAA1 /* gan.jpg */; };
+		9650A5EB204A9A2C0013FAA1 /* yatai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5E3204A9A2A0013FAA1 /* yatai.jpg */; };
+		9650A5EC204A9A2C0013FAA1 /* sports_archery_mato2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5E4204A9A2B0013FAA1 /* sports_archery_mato2.png */; };
+		9650A5ED204A9A2C0013FAA1 /* rodo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5E5204A9A2B0013FAA1 /* rodo.png */; };
+		9650A5EF204AA7520013FAA1 /* Songti.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5EE204AA7510013FAA1 /* Songti.ttc */; };
+		9650A5F2204AAF4C0013FAA1 /* icon-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F0204AAF4B0013FAA1 /* icon-02.png */; };
+		9650A5F3204AAF4C0013FAA1 /* icon-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F1204AAF4C0013FAA1 /* icon-03.png */; };
+		9650A5F5204ABBB60013FAA1 /* icon-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F4204ABBB60013FAA1 /* icon-04.png */; };
+		9650A5F8204AC0420013FAA1 /* icon-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F6204AC0410013FAA1 /* icon-05.png */; };
+		9650A5F9204AC0420013FAA1 /* icon-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F7204AC0420013FAA1 /* icon-06.png */; };
+		966755F6203706BB00375BD7 /* djsuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 966755F5203706BA00375BD7 /* djsuke.png */; };
+		966755FB2037107000375BD7 /* dara.png in Resources */ = {isa = PBXBuildFile; fileRef = 966755F72037106F00375BD7 /* dara.png */; };
+		966755FC2037107000375BD7 /* gohan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966755F82037106F00375BD7 /* gohan.jpg */; };
+		966755FD2037107000375BD7 /* erai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966755F92037107000375BD7 /* erai.jpg */; };
+		966755FE2037107000375BD7 /* work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966755FA2037107000375BD7 /* work.jpg */; };
 		96DB05462032CA0000F09D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB05452032CA0000F09D1D /* AppDelegate.swift */; };
-		96DB05482032CA0100F09D1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB05472032CA0100F09D1D /* ViewController.swift */; };
+		96DB05482032CA0100F09D1D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB05472032CA0100F09D1D /* GameViewController.swift */; };
 		96DB054B2032CA0100F09D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DB05492032CA0100F09D1D /* Main.storyboard */; };
 		96DB054D2032CA0100F09D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DB054C2032CA0100F09D1D /* Assets.xcassets */; };
 		96DB05502032CA0100F09D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DB054E2032CA0100F09D1D /* LaunchScreen.storyboard */; };
@@ -34,9 +58,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961C11852043E0D70098315A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		961C1189204401F40098315A /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		961C118D20468BB70098315A /* ju.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ju.png; sourceTree = "<group>"; };
+		963CB26A2039424800AF176A /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		9650A5DC204A95380013FAA1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9650A5DE204A9A280013FAA1 /* bronze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bronze.png; sourceTree = "<group>"; };
+		9650A5DF204A9A280013FAA1 /* 112.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 112.jpg; sourceTree = "<group>"; };
+		9650A5E0204A9A290013FAA1 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		9650A5E1204A9A290013FAA1 /* silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver.png; sourceTree = "<group>"; };
+		9650A5E2204A9A2A0013FAA1 /* gan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gan.jpg; sourceTree = "<group>"; };
+		9650A5E3204A9A2A0013FAA1 /* yatai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yatai.jpg; sourceTree = "<group>"; };
+		9650A5E4204A9A2B0013FAA1 /* sports_archery_mato2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports_archery_mato2.png; sourceTree = "<group>"; };
+		9650A5E5204A9A2B0013FAA1 /* rodo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rodo.png; sourceTree = "<group>"; };
+		9650A5EE204AA7510013FAA1 /* Songti.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Songti.ttc; path = ../../../../../../Library/Fonts/Songti.ttc; sourceTree = "<group>"; };
+		9650A5F0204AAF4B0013FAA1 /* icon-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-02.png"; sourceTree = "<group>"; };
+		9650A5F1204AAF4C0013FAA1 /* icon-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-03.png"; sourceTree = "<group>"; };
+		9650A5F4204ABBB60013FAA1 /* icon-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-04.png"; sourceTree = "<group>"; };
+		9650A5F6204AC0410013FAA1 /* icon-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-05.png"; sourceTree = "<group>"; };
+		9650A5F7204AC0420013FAA1 /* icon-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-06.png"; sourceTree = "<group>"; };
+		966755F5203706BA00375BD7 /* djsuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = djsuke.png; sourceTree = "<group>"; };
+		966755F72037106F00375BD7 /* dara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dara.png; path = Tapup/img/dara.png; sourceTree = SOURCE_ROOT; };
+		966755F82037106F00375BD7 /* gohan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gohan.jpg; path = Tapup/img/gohan.jpg; sourceTree = SOURCE_ROOT; };
+		966755F92037107000375BD7 /* erai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erai.jpg; path = Tapup/img/erai.jpg; sourceTree = SOURCE_ROOT; };
+		966755FA2037107000375BD7 /* work.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = work.jpg; path = Tapup/img/work.jpg; sourceTree = SOURCE_ROOT; };
 		96DB05422032CA0000F09D1D /* Tapup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DB05452032CA0000F09D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96DB05472032CA0100F09D1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96DB05472032CA0100F09D1D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		96DB054A2032CA0100F09D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96DB054C2032CA0100F09D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DB054F2032CA0100F09D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9650A5DD204A95380013FAA1 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +123,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9650A5DB204A95380013FAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9650A5DC204A95380013FAA1 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966755FF2037108A00375BD7 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9650A5F6204AC0410013FAA1 /* icon-05.png */,
+				9650A5F7204AC0420013FAA1 /* icon-06.png */,
+				9650A5F4204ABBB60013FAA1 /* icon-04.png */,
+				9650A5F0204AAF4B0013FAA1 /* icon-02.png */,
+				9650A5F1204AAF4C0013FAA1 /* icon-03.png */,
+				9650A5DF204A9A280013FAA1 /* 112.jpg */,
+				9650A5DE204A9A280013FAA1 /* bronze.png */,
+				9650A5E2204A9A2A0013FAA1 /* gan.jpg */,
+				9650A5E0204A9A290013FAA1 /* gold.png */,
+				9650A5E5204A9A2B0013FAA1 /* rodo.png */,
+				9650A5E1204A9A290013FAA1 /* silver.png */,
+				9650A5E4204A9A2B0013FAA1 /* sports_archery_mato2.png */,
+				9650A5E3204A9A2A0013FAA1 /* yatai.jpg */,
+				961C118D20468BB70098315A /* ju.png */,
+				966755F72037106F00375BD7 /* dara.png */,
+				966755F92037107000375BD7 /* erai.jpg */,
+				966755F82037106F00375BD7 /* gohan.jpg */,
+				966755FA2037107000375BD7 /* work.jpg */,
+				966755F5203706BA00375BD7 /* djsuke.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		96DB05392032CA0000F09D1D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +164,7 @@
 				96DB05592032CA0100F09D1D /* TapupTests */,
 				96DB05642032CA0100F09D1D /* TapupUITests */,
 				96DB05432032CA0000F09D1D /* Products */,
+				9650A5DB204A95380013FAA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +181,17 @@
 		96DB05442032CA0000F09D1D /* Tapup */ = {
 			isa = PBXGroup;
 			children = (
+				9650A5EE204AA7510013FAA1 /* Songti.ttc */,
+				966755FF2037108A00375BD7 /* img */,
 				96DB05452032CA0000F09D1D /* AppDelegate.swift */,
-				96DB05472032CA0100F09D1D /* ViewController.swift */,
+				96DB05472032CA0100F09D1D /* GameViewController.swift */,
 				96DB05492032CA0100F09D1D /* Main.storyboard */,
 				96DB054C2032CA0100F09D1D /* Assets.xcassets */,
 				96DB054E2032CA0100F09D1D /* LaunchScreen.storyboard */,
 				96DB05512032CA0100F09D1D /* Info.plist */,
+				963CB26A2039424800AF176A /* RankingViewController.swift */,
+				961C11852043E0D70098315A /* TimerViewController.swift */,
+				961C1189204401F40098315A /* InputViewController.swift */,
 			);
 			path = Tapup;
 			sourceTree = "<group>";
@@ -233,8 +322,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				96DB05502032CA0100F09D1D /* LaunchScreen.storyboard in Resources */,
+				966755FB2037107000375BD7 /* dara.png in Resources */,
+				9650A5EB204A9A2C0013FAA1 /* yatai.jpg in Resources */,
+				9650A5F3204AAF4C0013FAA1 /* icon-03.png in Resources */,
+				9650A5EF204AA7520013FAA1 /* Songti.ttc in Resources */,
+				966755FE2037107000375BD7 /* work.jpg in Resources */,
+				9650A5E7204A9A2C0013FAA1 /* 112.jpg in Resources */,
+				9650A5E6204A9A2C0013FAA1 /* bronze.png in Resources */,
+				9650A5EA204A9A2C0013FAA1 /* gan.jpg in Resources */,
+				9650A5F8204AC0420013FAA1 /* icon-05.png in Resources */,
+				9650A5EC204A9A2C0013FAA1 /* sports_archery_mato2.png in Resources */,
 				96DB054D2032CA0100F09D1D /* Assets.xcassets in Resources */,
+				966755FC2037107000375BD7 /* gohan.jpg in Resources */,
+				9650A5E8204A9A2C0013FAA1 /* gold.png in Resources */,
+				961C118E20468BB70098315A /* ju.png in Resources */,
+				9650A5F5204ABBB60013FAA1 /* icon-04.png in Resources */,
 				96DB054B2032CA0100F09D1D /* Main.storyboard in Resources */,
+				9650A5F2204AAF4C0013FAA1 /* icon-02.png in Resources */,
+				9650A5F9204AC0420013FAA1 /* icon-06.png in Resources */,
+				966755F6203706BB00375BD7 /* djsuke.png in Resources */,
+				9650A5E9204A9A2C0013FAA1 /* silver.png in Resources */,
+				966755FD2037107000375BD7 /* erai.jpg in Resources */,
+				9650A5ED204A9A2C0013FAA1 /* rodo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DB05482032CA0100F09D1D /* ViewController.swift in Sources */,
+				961C11862043E0D70098315A /* TimerViewController.swift in Sources */,
+				96DB05482032CA0100F09D1D /* GameViewController.swift in Sources */,
 				96DB05462032CA0000F09D1D /* AppDelegate.swift in Sources */,
+				961C118A204401F40098315A /* InputViewController.swift in Sources */,
+				963CB26B2039424800AF176A /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +539,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2RXWD63X;
 				INFOPLIST_FILE = Tapup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Tapup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.juna.Tapup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +554,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2RXWD63X;
 				INFOPLIST_FILE = Tapup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Tapup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.juna.Tapup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

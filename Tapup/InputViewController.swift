@@ -1,14 +1,14 @@
 //
-//  ResultViewController.swift
+//  InputViewController.swift
 //  Tapup
 //
-//  Created by kawagishi on 2018/02/13.
+//  Created by kawagishi on 2018/02/26.
 //  Copyright © 2018年 juna Kawagishi. All rights reserved.
 //
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class InputViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
