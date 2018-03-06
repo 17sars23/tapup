@@ -20,7 +20,7 @@ class GameViewController: UIViewController {
     
     private var myButton: UIButton!
     
-    var count: Float =  8.00
+    var count: Float =  15.00
     var push_count: Int = 1
     var score: Int = 0
     var timer: Timer = Timer()

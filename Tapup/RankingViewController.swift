@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class RankingViewController: UIViewController {
     
@@ -78,4 +79,12 @@ class RankingViewController: UIViewController {
         }
     }
     
+    @IBAction func twitter(){
+        
+       // let composer = TWTRComposer()
+        //composer.setText(text)
+        //composer.show(from: viewController, completion: { result in ... })
+    }
+    
+   
 }

@@ -18,15 +18,12 @@ class TimerViewController: UIViewController {
     @IBOutlet var Worktimer_secLabel: UILabel!
     @IBOutlet var money_Label: UILabel!
     
-    @IBOutlet var labelClock: UILabel!
-
-    var count: Int = 100
+    let SaveData: UserDefaults = UserDefaults.standard
     var money: Float = 0.00
-    let jikyu: Int = 1000
-    
+    var jikyu: Int!
     var Worktimer: Timer = Timer()
-    let now = Date()  //現在時刻
-    
+    var end_time: Date!
+    var max: Int!
     
     //---------------------------------------
     // Setting function
@@ -34,11 +31,17 @@ class TimerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let check = SaveData.string(forKey: "End_time")!
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        end_time = formatter.date(from: check)
+        
+        jikyu = SaveData.integer(forKey: "jikyu")
+        let w = SaveData.integer(forKey: "work_time") + 1
+        max = jikyu*w
+        
         Worktimer = Timer.scheduledTimer(timeInterval: 1.00, target: self, selector: #selector(self.down),
                                      userInfo: nil, repeats: true)
-        
-        let timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.displayClock), userInfo: nil, repeats: true)
-        timer.fire()
         
     }
 
@@ -48,68 +51,37 @@ class TimerViewController: UIViewController {
     }
     
     
-    //---------------------------------------
+    ///////////////////////////////////////////
     // Original function
-    //---------------------------------------
+    //////////////////////////////////////////
     
-    //-----------------------------------//
-    //              Timer
-    //-----------------------------------//
     //---------timer settting-----------------------------------------------
     @objc func down(){
-        let date2 = Date(timeInterval: 60*60*3, since: now) // 1週間と100秒前の日時
-        let span = Int(now.timeIntervalSince(date2))
+        let now = Date()
+        let span = Int(end_time.timeIntervalSince(now))
         
         let hours = span / 3600
         let minutes = (span - 3600 * hours) / 60
         let secs = (span - 3600 * hours - minutes * 60)
-       // print(" \(hours)時間 \(minutes)分 \(secs)秒")
         
+        Worktimer_hourLabel.text = String(format: "%02d", hours)
+        Worktimer_minLabel.text = String(format: "%02d", minutes)
+        Worktimer_secLabel.text = String(format: "%02d", secs)
         
-        count -= 1
-        Worktimer_hourLabel.text = String(hours)
-        Worktimer_minLabel.text = String(minutes)
-        Worktimer_secLabel.text = String(secs)
+        money_up(span: span)
         
-        money_up(jikyu: jikyu)
- 
-        if count <= 0{
+        if span <= 0{
             Worktimer.invalidate()
+            self.performSegue(withIdentifier: "toMission", sender: nil)
         }
     }
     
-    // 現在時刻を表示する処理--------------------------------------------
-    @objc func displayClock() {
-        // 現在時刻を「HH:MM:SS」形式で取得する
-        let formatter = DateFormatter()
-        formatter.dateFormat = "HH:mm:ss"
-        var displayTime = formatter.string(from: Date())    // Date()だけで現在時刻を表す
-        
-        // 0から始まる時刻の場合は「 H:MM:SS」形式にする
-        if displayTime.hasPrefix("0") {
-            // 最初に見つかった0だけ削除(スペース埋め)される
-            if let range = displayTime.range(of: "0") {
-                displayTime.replaceSubrange(range, with: " ")
-            }
-        }
 
-        labelClock.text = displayTime
-    }
-    
-    @IBAction func stop(){
-        Worktimer.invalidate()
-        //self.performSegue(withIdentifier: "Finish", sender: nil)
-    }
-    
-    //-----------------------------------//
-    //         Money  count
-    //-----------------------------------//
-    //---------timer settting-----------------------------------------------
-    func money_up(jikyu: Int){
+    //---------Money Timer-----------------------------------------------
+    func money_up(span: Int){
         let dif:Float = Float(jikyu)/3600
-        
-        money += dif
-        money_Label.text = String(format: "%.2f", money)
+        money = Float(max) - dif*Float(span)
+        money_Label.text = String(format: "%.1f", money)
     }
-    
+
 }

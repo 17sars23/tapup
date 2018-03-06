@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F780356E69407ADF4656D31 /* Pods_TapupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEE3BABE13794CA7A46D97F /* Pods_TapupUITests.framework */; };
+		94BB79C43998D85498D7BA09 /* Pods_TapupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE199530AFA2C52BD86D0DAC /* Pods_TapupTests.framework */; };
 		961C11862043E0D70098315A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C11852043E0D70098315A /* TimerViewController.swift */; };
 		961C118A204401F40098315A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C1189204401F40098315A /* InputViewController.swift */; };
 		961C118E20468BB70098315A /* ju.png in Resources */ = {isa = PBXBuildFile; fileRef = 961C118D20468BB70098315A /* ju.png */; };
@@ -26,11 +28,10 @@
 		9650A5F5204ABBB60013FAA1 /* icon-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F4204ABBB60013FAA1 /* icon-04.png */; };
 		9650A5F8204AC0420013FAA1 /* icon-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F6204AC0410013FAA1 /* icon-05.png */; };
 		9650A5F9204AC0420013FAA1 /* icon-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5F7204AC0420013FAA1 /* icon-06.png */; };
+		9650A5FB204C344C0013FAA1 /* icon-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A5FA204C344A0013FAA1 /* icon-07.png */; };
 		966755F6203706BB00375BD7 /* djsuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 966755F5203706BA00375BD7 /* djsuke.png */; };
-		966755FB2037107000375BD7 /* dara.png in Resources */ = {isa = PBXBuildFile; fileRef = 966755F72037106F00375BD7 /* dara.png */; };
-		966755FC2037107000375BD7 /* gohan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966755F82037106F00375BD7 /* gohan.jpg */; };
-		966755FD2037107000375BD7 /* erai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966755F92037107000375BD7 /* erai.jpg */; };
-		966755FE2037107000375BD7 /* work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966755FA2037107000375BD7 /* work.jpg */; };
+		967BCE64204C43CD009E3BBB /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967BCE63204C43CD009E3BBB /* back.jpg */; };
+		967BCE66204C45E3009E3BBB /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 967BCE65204C45E2009E3BBB /* glass.png */; };
 		96DB05462032CA0000F09D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB05452032CA0000F09D1D /* AppDelegate.swift */; };
 		96DB05482032CA0100F09D1D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB05472032CA0100F09D1D /* GameViewController.swift */; };
 		96DB054B2032CA0100F09D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DB05492032CA0100F09D1D /* Main.storyboard */; };
@@ -38,6 +39,20 @@
 		96DB05502032CA0100F09D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DB054E2032CA0100F09D1D /* LaunchScreen.storyboard */; };
 		96DB055B2032CA0100F09D1D /* TapupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB055A2032CA0100F09D1D /* TapupTests.swift */; };
 		96DB05662032CA0100F09D1D /* TapupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB05652032CA0100F09D1D /* TapupUITests.swift */; };
+		96F9458F204D3CC000E3A314 /* glass_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F9458E204D3CC000E3A314 /* glass_03.png */; };
+		96F94592204D417000E3A314 /* window.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F94590204D416F00E3A314 /* window.png */; };
+		96F94593204D417000E3A314 /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F94591204D417000E3A314 /* name.png */; };
+		96F94597204D436D00E3A314 /* PixelMplus10-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96F94596204D436D00E3A314 /* PixelMplus10-Regular.ttf */; };
+		96F94599204D4A2000E3A314 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F94598204D4A1F00E3A314 /* money.png */; };
+		96F9459B204D5A7300E3A314 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F9459A204D5A7300E3A314 /* start.png */; };
+		96F9459D204D5B6B00E3A314 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9459C204D5B6B00E3A314 /* MissionViewController.swift */; };
+		96F9459F204D735200E3A314 /* back2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96F9459E204D735100E3A314 /* back2.jpg */; };
+		96F945A4204D76C800E3A314 /* frame04.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F945A0204D76B800E3A314 /* frame04.png */; };
+		96F945A5204D76C800E3A314 /* frame01.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F945A1204D76B900E3A314 /* frame01.png */; };
+		96F945A6204D76C800E3A314 /* frame02.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F945A2204D76C400E3A314 /* frame02.png */; };
+		96F945A7204D76C800E3A314 /* frame03.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F945A3204D76C400E3A314 /* frame03.png */; };
+		96F945A9204D7B2900E3A314 /* Mechanoarc.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96F945A8204D7B2800E3A314 /* Mechanoarc.otf */; };
+		C8BFC80124C36B9E193B70DC /* Pods_Tapup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B451A0F3D5D1980FD275FB6 /* Pods_Tapup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BBAEAB0C5943EFE8B20DECA /* Pods-TapupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapupTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapupTests/Pods-TapupTests.release.xcconfig"; sourceTree = "<group>"; };
+		19DBBFFE9D1D484D15E6FCC8 /* Pods-Tapup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tapup/Pods-Tapup.debug.xcconfig"; sourceTree = "<group>"; };
+		5B451A0F3D5D1980FD275FB6 /* Pods_Tapup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		961C11852043E0D70098315A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		961C1189204401F40098315A /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		961C118D20468BB70098315A /* ju.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ju.png; sourceTree = "<group>"; };
@@ -77,11 +95,11 @@
 		9650A5F4204ABBB60013FAA1 /* icon-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-04.png"; sourceTree = "<group>"; };
 		9650A5F6204AC0410013FAA1 /* icon-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-05.png"; sourceTree = "<group>"; };
 		9650A5F7204AC0420013FAA1 /* icon-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-06.png"; sourceTree = "<group>"; };
+		9650A5FA204C344A0013FAA1 /* icon-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-07.png"; sourceTree = "<group>"; };
+		9658C916C0528E6FDCDC1285 /* Pods-TapupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapupTests/Pods-TapupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		966755F5203706BA00375BD7 /* djsuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = djsuke.png; sourceTree = "<group>"; };
-		966755F72037106F00375BD7 /* dara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dara.png; path = Tapup/img/dara.png; sourceTree = SOURCE_ROOT; };
-		966755F82037106F00375BD7 /* gohan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gohan.jpg; path = Tapup/img/gohan.jpg; sourceTree = SOURCE_ROOT; };
-		966755F92037107000375BD7 /* erai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erai.jpg; path = Tapup/img/erai.jpg; sourceTree = SOURCE_ROOT; };
-		966755FA2037107000375BD7 /* work.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = work.jpg; path = Tapup/img/work.jpg; sourceTree = SOURCE_ROOT; };
+		967BCE63204C43CD009E3BBB /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		967BCE65204C45E2009E3BBB /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
 		96DB05422032CA0000F09D1D /* Tapup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DB05452032CA0000F09D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DB05472032CA0100F09D1D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +113,24 @@
 		96DB05612032CA0100F09D1D /* TapupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DB05652032CA0100F09D1D /* TapupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapupUITests.swift; sourceTree = "<group>"; };
 		96DB05672032CA0100F09D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F9458E204D3CC000E3A314 /* glass_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass_03.png; sourceTree = "<group>"; };
+		96F94590204D416F00E3A314 /* window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window.png; sourceTree = "<group>"; };
+		96F94591204D417000E3A314 /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		96F94596204D436D00E3A314 /* PixelMplus10-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelMplus10-Regular.ttf"; sourceTree = "<group>"; };
+		96F94598204D4A1F00E3A314 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		96F9459A204D5A7300E3A314 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		96F9459C204D5B6B00E3A314 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
+		96F9459E204D735100E3A314 /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back2.jpg; sourceTree = "<group>"; };
+		96F945A0204D76B800E3A314 /* frame04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame04.png; sourceTree = "<group>"; };
+		96F945A1204D76B900E3A314 /* frame01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame01.png; sourceTree = "<group>"; };
+		96F945A2204D76C400E3A314 /* frame02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame02.png; sourceTree = "<group>"; };
+		96F945A3204D76C400E3A314 /* frame03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame03.png; sourceTree = "<group>"; };
+		96F945A8204D7B2800E3A314 /* Mechanoarc.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mechanoarc.otf; sourceTree = "<group>"; };
+		A1F9BE49E7D11E5098220FA0 /* Pods-TapupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapupUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapupUITests/Pods-TapupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE199530AFA2C52BD86D0DAC /* Pods_TapupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEE3BABE13794CA7A46D97F /* Pods_TapupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDE0702B25B98C8C02C7288 /* Pods-Tapup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tapup/Pods-Tapup.release.xcconfig"; sourceTree = "<group>"; };
+		FF1E7F91B1CA8B79A837CDD9 /* Pods-TapupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapupUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapupUITests/Pods-TapupUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9650A5DD204A95380013FAA1 /* Social.framework in Frameworks */,
+				C8BFC80124C36B9E193B70DC /* Pods_Tapup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BB79C43998D85498D7BA09 /* Pods_TapupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,16 +155,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F780356E69407ADF4656D31 /* Pods_TapupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4FBAB77CA9215415EE4B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19DBBFFE9D1D484D15E6FCC8 /* Pods-Tapup.debug.xcconfig */,
+				FEDE0702B25B98C8C02C7288 /* Pods-Tapup.release.xcconfig */,
+				9658C916C0528E6FDCDC1285 /* Pods-TapupTests.debug.xcconfig */,
+				0BBAEAB0C5943EFE8B20DECA /* Pods-TapupTests.release.xcconfig */,
+				FF1E7F91B1CA8B79A837CDD9 /* Pods-TapupUITests.debug.xcconfig */,
+				A1F9BE49E7D11E5098220FA0 /* Pods-TapupUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9650A5DB204A95380013FAA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9650A5DC204A95380013FAA1 /* Social.framework */,
+				5B451A0F3D5D1980FD275FB6 /* Pods_Tapup.framework */,
+				AE199530AFA2C52BD86D0DAC /* Pods_TapupTests.framework */,
+				DEEE3BABE13794CA7A46D97F /* Pods_TapupUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +189,19 @@
 		966755FF2037108A00375BD7 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				96F945A1204D76B900E3A314 /* frame01.png */,
+				96F945A2204D76C400E3A314 /* frame02.png */,
+				96F945A3204D76C400E3A314 /* frame03.png */,
+				96F945A0204D76B800E3A314 /* frame04.png */,
+				96F9459E204D735100E3A314 /* back2.jpg */,
+				96F9459A204D5A7300E3A314 /* start.png */,
+				96F94598204D4A1F00E3A314 /* money.png */,
+				96F94591204D417000E3A314 /* name.png */,
+				96F94590204D416F00E3A314 /* window.png */,
+				96F9458E204D3CC000E3A314 /* glass_03.png */,
+				967BCE65204C45E2009E3BBB /* glass.png */,
+				967BCE63204C43CD009E3BBB /* back.jpg */,
+				9650A5FA204C344A0013FAA1 /* icon-07.png */,
 				9650A5F6204AC0410013FAA1 /* icon-05.png */,
 				9650A5F7204AC0420013FAA1 /* icon-06.png */,
 				9650A5F4204ABBB60013FAA1 /* icon-04.png */,
@@ -148,10 +216,6 @@
 				9650A5E4204A9A2B0013FAA1 /* sports_archery_mato2.png */,
 				9650A5E3204A9A2A0013FAA1 /* yatai.jpg */,
 				961C118D20468BB70098315A /* ju.png */,
-				966755F72037106F00375BD7 /* dara.png */,
-				966755F92037107000375BD7 /* erai.jpg */,
-				966755F82037106F00375BD7 /* gohan.jpg */,
-				966755FA2037107000375BD7 /* work.jpg */,
 				966755F5203706BA00375BD7 /* djsuke.png */,
 			);
 			path = img;
@@ -165,6 +229,7 @@
 				96DB05642032CA0100F09D1D /* TapupUITests */,
 				96DB05432032CA0000F09D1D /* Products */,
 				9650A5DB204A95380013FAA1 /* Frameworks */,
+				3B4FBAB77CA9215415EE4B83 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,17 +246,20 @@
 		96DB05442032CA0000F09D1D /* Tapup */ = {
 			isa = PBXGroup;
 			children = (
+				96F94596204D436D00E3A314 /* PixelMplus10-Regular.ttf */,
 				9650A5EE204AA7510013FAA1 /* Songti.ttc */,
+				96F945A8204D7B2800E3A314 /* Mechanoarc.otf */,
 				966755FF2037108A00375BD7 /* img */,
 				96DB05452032CA0000F09D1D /* AppDelegate.swift */,
-				96DB05472032CA0100F09D1D /* GameViewController.swift */,
 				96DB05492032CA0100F09D1D /* Main.storyboard */,
 				96DB054C2032CA0100F09D1D /* Assets.xcassets */,
 				96DB054E2032CA0100F09D1D /* LaunchScreen.storyboard */,
 				96DB05512032CA0100F09D1D /* Info.plist */,
+				96DB05472032CA0100F09D1D /* GameViewController.swift */,
 				963CB26A2039424800AF176A /* RankingViewController.swift */,
 				961C11852043E0D70098315A /* TimerViewController.swift */,
 				961C1189204401F40098315A /* InputViewController.swift */,
+				96F9459C204D5B6B00E3A314 /* MissionViewController.swift */,
 			);
 			path = Tapup;
 			sourceTree = "<group>";
@@ -221,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DB056A2032CA0100F09D1D /* Build configuration list for PBXNativeTarget "Tapup" */;
 			buildPhases = (
+				A100A5830BA90BC38150C4C0 /* [CP] Check Pods Manifest.lock */,
 				96DB053E2032CA0000F09D1D /* Sources */,
 				96DB053F2032CA0000F09D1D /* Frameworks */,
 				96DB05402032CA0000F09D1D /* Resources */,
+				EC049D33711D05EE3E769384 /* [CP] Embed Pods Frameworks */,
+				35395E2C16E077E59E5791F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DB056D2032CA0100F09D1D /* Build configuration list for PBXNativeTarget "TapupTests" */;
 			buildPhases = (
+				A8A4CEEAD74940D9041407CA /* [CP] Check Pods Manifest.lock */,
 				96DB05522032CA0100F09D1D /* Sources */,
 				96DB05532032CA0100F09D1D /* Frameworks */,
 				96DB05542032CA0100F09D1D /* Resources */,
+				DDE15A4B7D92AC45CD0EE3C6 /* [CP] Embed Pods Frameworks */,
+				E60E7E1B3EB4C08D5F0200F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DB05702032CA0100F09D1D /* Build configuration list for PBXNativeTarget "TapupUITests" */;
 			buildPhases = (
+				F71332779A543902E725CAC3 /* [CP] Check Pods Manifest.lock */,
 				96DB055D2032CA0100F09D1D /* Sources */,
 				96DB055E2032CA0100F09D1D /* Frameworks */,
 				96DB055F2032CA0100F09D1D /* Resources */,
+				E806169F2175D22C076B3C39 /* [CP] Embed Pods Frameworks */,
+				BD68767F5539D27C1289ED0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,28 +398,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967BCE66204C45E3009E3BBB /* glass.png in Resources */,
+				96F9459B204D5A7300E3A314 /* start.png in Resources */,
 				96DB05502032CA0100F09D1D /* LaunchScreen.storyboard in Resources */,
-				966755FB2037107000375BD7 /* dara.png in Resources */,
+				967BCE64204C43CD009E3BBB /* back.jpg in Resources */,
 				9650A5EB204A9A2C0013FAA1 /* yatai.jpg in Resources */,
 				9650A5F3204AAF4C0013FAA1 /* icon-03.png in Resources */,
 				9650A5EF204AA7520013FAA1 /* Songti.ttc in Resources */,
-				966755FE2037107000375BD7 /* work.jpg in Resources */,
+				96F945A4204D76C800E3A314 /* frame04.png in Resources */,
 				9650A5E7204A9A2C0013FAA1 /* 112.jpg in Resources */,
+				96F945A5204D76C800E3A314 /* frame01.png in Resources */,
+				96F9459F204D735200E3A314 /* back2.jpg in Resources */,
+				96F94599204D4A2000E3A314 /* money.png in Resources */,
 				9650A5E6204A9A2C0013FAA1 /* bronze.png in Resources */,
 				9650A5EA204A9A2C0013FAA1 /* gan.jpg in Resources */,
+				96F945A9204D7B2900E3A314 /* Mechanoarc.otf in Resources */,
 				9650A5F8204AC0420013FAA1 /* icon-05.png in Resources */,
+				96F945A7204D76C800E3A314 /* frame03.png in Resources */,
 				9650A5EC204A9A2C0013FAA1 /* sports_archery_mato2.png in Resources */,
+				96F94593204D417000E3A314 /* name.png in Resources */,
+				96F9458F204D3CC000E3A314 /* glass_03.png in Resources */,
+				9650A5FB204C344C0013FAA1 /* icon-07.png in Resources */,
 				96DB054D2032CA0100F09D1D /* Assets.xcassets in Resources */,
-				966755FC2037107000375BD7 /* gohan.jpg in Resources */,
 				9650A5E8204A9A2C0013FAA1 /* gold.png in Resources */,
 				961C118E20468BB70098315A /* ju.png in Resources */,
 				9650A5F5204ABBB60013FAA1 /* icon-04.png in Resources */,
 				96DB054B2032CA0100F09D1D /* Main.storyboard in Resources */,
+				96F945A6204D76C800E3A314 /* frame02.png in Resources */,
 				9650A5F2204AAF4C0013FAA1 /* icon-02.png in Resources */,
+				96F94597204D436D00E3A314 /* PixelMplus10-Regular.ttf in Resources */,
 				9650A5F9204AC0420013FAA1 /* icon-06.png in Resources */,
 				966755F6203706BB00375BD7 /* djsuke.png in Resources */,
+				96F94592204D417000E3A314 /* window.png in Resources */,
 				9650A5E9204A9A2C0013FAA1 /* silver.png in Resources */,
-				966755FD2037107000375BD7 /* erai.jpg in Resources */,
 				9650A5ED204A9A2C0013FAA1 /* rodo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +451,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35395E2C16E077E59E5791F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tapup/Pods-Tapup-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tapup/Pods-Tapup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A100A5830BA90BC38150C4C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A4CEEAD74940D9041407CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD68767F5539D27C1289ED0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapupUITests/Pods-TapupUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE15A4B7D92AC45CD0EE3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapupTests/Pods-TapupTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60E7E1B3EB4C08D5F0200F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapupTests/Pods-TapupTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E806169F2175D22C076B3C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapupUITests/Pods-TapupUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC049D33711D05EE3E769384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tapup/Pods-Tapup-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tapup/Pods-Tapup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71332779A543902E725CAC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96DB053E2032CA0000F09D1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -371,6 +616,7 @@
 				961C11862043E0D70098315A /* TimerViewController.swift in Sources */,
 				96DB05482032CA0100F09D1D /* GameViewController.swift in Sources */,
 				96DB05462032CA0000F09D1D /* AppDelegate.swift in Sources */,
+				96F9459D204D5B6B00E3A314 /* MissionViewController.swift in Sources */,
 				961C118A204401F40098315A /* InputViewController.swift in Sources */,
 				963CB26B2039424800AF176A /* RankingViewController.swift in Sources */,
 			);
@@ -536,6 +782,7 @@
 		};
 		96DB056B2032CA0100F09D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DBBFFE9D1D484D15E6FCC8 /* Pods-Tapup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +798,7 @@
 		};
 		96DB056C2032CA0100F09D1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDE0702B25B98C8C02C7288 /* Pods-Tapup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +814,7 @@
 		};
 		96DB056E2032CA0100F09D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9658C916C0528E6FDCDC1285 /* Pods-TapupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +831,7 @@
 		};
 		96DB056F2032CA0100F09D1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBAEAB0C5943EFE8B20DECA /* Pods-TapupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,6 +848,7 @@
 		};
 		96DB05712032CA0100F09D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1E7F91B1CA8B79A837CDD9 /* Pods-TapupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,6 +864,7 @@
 		};
 		96DB05722032CA0100F09D1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F9BE49E7D11E5098220FA0 /* Pods-TapupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
